@@ -1,0 +1,36 @@
+lost-found-assistant/
+│
+├── assets/
+│   ├── css/
+│   │   └── tailwind.css
+│   ├── js/
+│   │   └── main.js
+│   └── images/
+│
+├── config/
+│   └── db.php
+│
+├── includes/
+│   ├── header.php
+│   ├── footer.php
+│   └── auth_check.php
+│
+├── auth/
+│   ├── login.php
+│   ├── register.php
+│   └── logout.php
+│
+├── user/
+│   ├── dashboard.php
+│   ├── add-lost.php
+│   ├── add-found.php
+│   ├── my-claims.php
+│
+├── admin/
+│   ├── dashboard.php
+│   ├── approve-items.php
+│   ├── claims.php
+│
+├── index.php
+├── claim.php
+└── README.md
