@@ -1,0 +1,59 @@
+/* assets/css/tailwind.css */
+
+/* Custom Dark Theme Enhancements */
+:root {
+  --primary: #6366f1;   /* Indigo */
+  --secondary: #22c55e; /* Green */
+  --danger: #ef4444;    /* Red */
+  --dark-bg: #0f172a;   /* Slate-900 */
+  --card-bg: #020617;   /* Slate-950 */
+}
+
+body {
+  background-color: var(--dark-bg);
+  color: #e5e7eb;
+  font-family: 'Inter', sans-serif;
+}
+
+.card {
+  background-color: var(--card-bg);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #4f46e5;
+}
+
+.btn-success {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.btn-danger {
+  background-color: var(--danger);
+  color: white;
+}
+
+.input {
+  background-color: #020617;
+  border: 1px solid #334155;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  color: white;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--primary);
+}
